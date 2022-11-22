@@ -1,0 +1,79 @@
+h3{
+    font-size: 30px;
+    text-align: right;
+    color: crimson;
+}
+.nav{
+    list-style-type:none;
+    background-color: yellow;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    /*How to Comment in CSS*/
+}
+.bgcolor{
+    background-color: gold;
+}
+#bgurl{
+    text-align: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+#bgurl:hover{
+    opacity: 1;
+}
+#bgurl img{
+    width: 415px;
+    height: 415px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+#hover{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+    float: left;
+}
+#hover:hover{
+    width: 300px;
+    background-color: green;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    clear: left;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    clear: left;
+}
+#text1{
+    background-color: darkgray;
+    border: 10px solid limegreen;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;text-indent: 20%;
+}
+#text{
+    background-color: darkgray;
+    border: 10px solid limegreen;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;text-indent: 20%;
+    float: left;
+    width: 25%;
+}
+#box{
+    width: 100%;
+}
